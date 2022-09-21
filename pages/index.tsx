@@ -17,6 +17,7 @@ export const Home = (): JSX.Element => (
         <p className="text-lg description">Major in Applied Informatics, Graduate School of Science and Engineering, The University of Hosei</p>
       </div>
       <section className={'mt-8'}>
+
         <h2 className={'text-3xl font-bold'}>Contact information</h2>
         <p>
           {/* <a
@@ -114,24 +115,47 @@ export const Home = (): JSX.Element => (
       </section>
       <section className={'mt-8'}>
         <h2 className={'text-3xl font-bold'}>💻 Skills</h2>
+        <h3 className={'text-lg font-bold'}></h3>
         <div className="flex place-content-center space-x-8">
           <div className="w-1/2">
             <div className="flex justify-between mb-1">
               <span className="text-base font-medium text-blue-700 dark:text-blue-500">Python</span>
-              <span className="text-sm font-medium text-blue-700 dark:text-blue-500">80%</span>
+              <span className="text-sm font-medium text-blue-700 dark:text-blue-500">85%</span>
             </div>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div className="bg-blue-600 h-2.5 rounded-full" style={{width: "80%"}}></div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-500">
+              <div className="bg-blue-600 h-2.5 rounded-full" style={{width: "85%"}}></div>
             </div>
           </div>
 
           <div className="w-1/2">
             <div className="flex justify-between mb-1">
-              <span className="text-base font-medium text-blue-700 dark:text-blue-500">Javascript</span>
-              <span className="text-sm font-medium text-blue-700 dark:text-blue-500">80%</span>
+              <span className="text-base font-medium text-blue-700 dark:text-amber-300">Javascript</span>
+              <span className="text-sm font-medium text-blue-700 dark:text-amber-300">80%</span>
             </div>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div className="bg-blue-600 h-2.5 rounded-full" style={{width: "80%"}}></div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-500">
+              <div className="bg-amber-500 h-2.5 rounded-full" style={{width: "80%"}}></div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex place-content-center space-x-8">
+          <div className="w-1/2">
+            <div className="flex justify-between mb-1">
+              <span className="text-base font-medium text-blue-700 dark:text-blue-500">Python</span>
+              <span className="text-sm font-medium text-blue-700 dark:text-blue-500">50%</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-500">
+              <div className="bg-blue-600 h-2.5 rounded-full" style={{width: "50%"}}></div>
+            </div>
+          </div>
+
+          <div className="w-1/2">
+            <div className="flex justify-between mb-1">
+              <span className="text-base font-medium text-blue-700 dark:text-amber-300">Javascript</span>
+              <span className="text-sm font-medium text-blue-700 dark:text-amber-300">50%</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-500">
+              <div className="bg-amber-500 h-2.5 rounded-full" style={{width: "50%"}}></div>
             </div>
           </div>
         </div>
