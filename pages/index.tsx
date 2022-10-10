@@ -75,6 +75,36 @@ export const Home = (): JSX.Element => (
               </ul>
             </div>
           </li>
+
+          <li>
+            <p className="timeline-date">2022/08/01〜2022/08/05</p>
+            <div className={'timeline-content'}>
+              <h3 className={'text-lg font-bold mt-8'}>日鉄ソリューションズ株式会社 </h3>
+
+              <p>システムエンジニアインターン (1週間)</p>
+              <p>大学生協の自動化システムの開発体験</p>
+              <p>上流工程の一部(基本設計)を6人チームで体験</p>
+              <br></br>
+            </div>
+          </li>
+
+          <li>
+            <p className="timeline-date">2022/05/28〜2022/05/29</p>
+            <div className={'timeline-content'}>
+              <h3 className={'text-lg font-bold mt-8'}>BIPROGY DX HACK -User&apos;s voice &quot;Solve the problem&quot;- </h3>
+
+              <p>ハッカソン (2日間)</p>
+              <p>アイスブレイクを促進するミーティングアプリの開発</p>
+              <p>Twilioを活用したチームの中で最もアイディアと完成度が高いことを評してTwilio賞(副賞)受賞</p>
+              <p>5人チームのチームリーダー(進捗管理)とフロントエンド・バックエンド担当</p>
+              <ul className="list-disc m-6">
+                <li>フロントエンド：Javascript</li>
+                <li>バックエンド：Python(Flask)</li>
+                <li>API：Twilio</li>
+              </ul>
+            </div>
+          </li>
+
           <li>
             <p className="timeline-date">2022/03/03</p>
             <div className={'timeline-content'}>
@@ -87,8 +117,15 @@ export const Home = (): JSX.Element => (
                 http://www.ipsj.or.jp/index.html
               </a>
               <p>発表テーマ：類似症例検索を目的とした撮像環境に頑健な特徴表現の獲得</p>
+              <a 
+                href="https://docs.google.com/presentation/d/1yu0mcY9R7VcJUKms0Q83dyHsFfrqmFwur3MhqW5_nFo/edit?usp=sharing"
+              >
+                発表スライド：https://docs.google.com/presentation/d/1yu0mcY9R7VcJUKms0Q83dyHsFfrqmFwur3MhqW5_nFo/edit?usp=sharing
+              </a>
             </div>
+            <br></br>
           </li>
+
           <li>
             <p className="timeline-date">2021/03〜現在</p>
             <div className={'timeline-content'}>
@@ -108,6 +145,7 @@ export const Home = (): JSX.Element => (
           </li>
         </ul>
       </section>
+
       <section className={'mt-8'}>
         <h2 className={'text-3xl font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faGlobe} /> Languages & Qualification</h2>
         <ul className="text-lg list-disc pl-8">
