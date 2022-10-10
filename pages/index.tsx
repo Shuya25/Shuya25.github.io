@@ -228,9 +228,9 @@ export const Home = (): JSX.Element => (
         <br></br>
         <h3 className={'text-2xl font-bold'}>Framework</h3>
         <div className='text-lg'>
-          <p>Python : Pytorch, Pandas, Django, Flask</p>
+          <p>Python : Pytorch, Pandas, Django, Flask, etc...</p>
           <p>Javascript : React, Next</p>
-          <p>Ruby : Rails</p>
+          <p>Ruby : Ruby on Rails</p>
           <p>CSS : Tailwind, MUI</p>
         </div>
 
