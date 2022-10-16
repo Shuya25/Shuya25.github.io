@@ -58,7 +58,7 @@ export const Home = (): JSX.Element => (
             <p className="timeline-date">2022/08/15〜2022/09/09</p>
             <div className={'timeline-content'}>
               <h3 className={'text-lg font-bold mt-8 underline underline-offset-1 text-blue-800'}>
-              <a className={'scrapbox hover:text-blue-300'} href='https://scrapbox.io/shuya-t/Softbank_Summer_Internship' target="_blank" rel="noopener noreferrer">
+              <a className={'hover:text-blue-300'} href='https://scrapbox.io/shuya-t/Softbank_Summer_Internship' target="_blank" rel="noopener noreferrer">
                   ソフトバンク株式会社 <FontAwesomeIcon icon={faFileCircleCheck} /> </a></h3>
               {/* <a
                 href="https://~/"
@@ -129,7 +129,7 @@ export const Home = (): JSX.Element => (
             <p className="timeline-date">2021/03〜現在</p>
             <div className={'timeline-content'}>
               <h3 className={'text-lg font-bold mt-8 underline underline-offset-1 text-blue-800'}>
-                <a className={'scrapbox hover:text-blue-300'} href='https://scrapbox.io/shuya-t/Future_Internship' target="_blank" rel="noopener noreferrer">
+                <a className={'hover:text-blue-300'} href='https://scrapbox.io/shuya-t/Future_Internship' target="_blank" rel="noopener noreferrer">
                   フューチャー株式会社 <FontAwesomeIcon icon={faFileCircleCheck} /></a>
               </h3>
               {/* <a
@@ -299,17 +299,6 @@ export const Home = (): JSX.Element => (
         margin: 0;
         line-height: 1.15;
         font-size: 4rem;
-      }
-
-      .scraobox:after {
-        content: "";
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        background: url(/scrapbox.png) no-repeat;
-        background-size: contain;
-        margin-right: 3px;
-        transform: translateY(6px);
       }
 
       header {
