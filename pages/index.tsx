@@ -2,15 +2,15 @@ import Head from 'next/head'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faLaptopCode, faBook, faUserGraduate, faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faLaptopCode, faBook, faUserGraduate, faGlobe, faFileCircleCheck } from '@fortawesome/free-solid-svg-icons'
 import Header from '../components/header'
 
 
 export const Home = (): JSX.Element => (
   <div>
     <Head>
-      <title>Portfolio - ShuyaTobari</title>
       <link rel="icon" href="/favicon.ico" />
+      <title>Portfolio - ShuyaTobari</title>
     </Head>
     <Header />
     <main className="py-20 my-40 mx-20 lg:mx-20">
@@ -57,7 +57,9 @@ export const Home = (): JSX.Element => (
           <li>
             <p className="timeline-date">2022/08/15〜2022/09/09</p>
             <div className={'timeline-content'}>
-              <h3 className={'text-lg font-bold mt-8'}>ソフトバンク株式会社 </h3>
+              <h3 className={'text-lg font-bold mt-8 underline underline-offset-1 text-blue-800'}>
+              <a className={'scrapbox hover:text-blue-300'} href='https://scrapbox.io/shuya-t/Softbank_Summer_Internship' target="_blank" rel="noopener noreferrer">
+                  ソフトバンク株式会社 <FontAwesomeIcon icon={faFileCircleCheck} /> </a></h3>
               {/* <a
                 href="https://~/"
                 target="_blank"
@@ -75,7 +77,6 @@ export const Home = (): JSX.Element => (
               </ul>
             </div>
           </li>
-
           <li>
             <p className="timeline-date">2022/08/01〜2022/08/05</p>
             <div className={'timeline-content'}>
@@ -87,7 +88,6 @@ export const Home = (): JSX.Element => (
               <br></br>
             </div>
           </li>
-
           <li>
             <p className="timeline-date">2022/05/28〜2022/05/29</p>
             <div className={'timeline-content'}>
@@ -104,7 +104,6 @@ export const Home = (): JSX.Element => (
               </ul>
             </div>
           </li>
-
           <li>
             <p className="timeline-date">2022/03/03</p>
             <div className={'timeline-content'}>
@@ -129,14 +128,17 @@ export const Home = (): JSX.Element => (
           <li>
             <p className="timeline-date">2021/03〜現在</p>
             <div className={'timeline-content'}>
-              <h3 className={'text-lg font-bold mt-8'}>フューチャー株式会社 </h3>
-              <a
+              <h3 className={'text-lg font-bold mt-8 underline underline-offset-1 text-blue-800'}>
+                <a className={'scrapbox hover:text-blue-300'} href='https://scrapbox.io/shuya-t/Future_Internship' target="_blank" rel="noopener noreferrer">
+                  フューチャー株式会社 <FontAwesomeIcon icon={faFileCircleCheck} /></a>
+              </h3>
+              {/* <a
                 href="https://www.future.co.jp/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 https://www.future.co.jp/
-              </a>
+              </a> */}
               <p>長期開発インターン</p>
               <p>AIOCRを用いた帳票自動読み取りシステムの開発</p>
               <p>データ加工・拡張、論文調査・実装検証、画像処理を用いた関数作成・検証、AIモデルの構築・改良など</p>
@@ -297,6 +299,17 @@ export const Home = (): JSX.Element => (
         margin: 0;
         line-height: 1.15;
         font-size: 4rem;
+      }
+
+      .scraobox:after {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background: url(/scrapbox.png) no-repeat;
+        background-size: contain;
+        margin-right: 3px;
+        transform: translateY(6px);
       }
 
       header {
