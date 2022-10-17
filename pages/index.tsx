@@ -152,7 +152,7 @@ export const Home = (): JSX.Element => (
         <h2 className={'text-3xl font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faGlobe} /> Languages & Qualification</h2>
         <ul className="text-lg list-disc pl-8">
           <li>日本語(ネイティブ)</li>
-          <li>英語(簡単な日常会話、TOEIC：750 (2021年10月))</li>
+          <li>英語(簡単な日常会話、TOEIC L&R：750 (2021年10月))</li>
           <li>基本情報技術者試験 合格 (2019年11月)</li>
           <li>普通自動車第一種免許(AT限定) 取得 (2019年9月)</li>
         </ul>
