@@ -23,8 +23,8 @@ export const Home = (): JSX.Element => (
         <h2 className={'mb-8 font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faBook}/> Research & Internship</h2>
         <ol className="relative ml-6 border-l border-sky-600 dark:border-gray-700">                  
           <li className="mb-10 ml-6">
-            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2022/09/12〜2022/09/16</time>
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-8 -left-1.5 border border-sky-600 dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">2022/09/12〜2022/09/16</time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">BIPROGY株式会社</h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               ソフトウェアエンジニアインターン(1週間)に参加。 チームで保育園の連絡帳アプリのプロトタイプ開発した。
@@ -35,8 +35,8 @@ export const Home = (): JSX.Element => (
             </ul>
           </li>
           <li className="mb-10 ml-6">
-            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2022/08/15〜2022/09/09</time>
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-8 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">2022/08/15〜2022/09/09</time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">ソフトバンク株式会社</h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               システムエンジニアインターン(1ヶ月)に参加。社内Web会議アプリに組み込み可能な字幕表示・議事録出力モジュール等の開発を担当し、画面設計からテストまでを実施した。
@@ -52,16 +52,16 @@ export const Home = (): JSX.Element => (
             </a>
           </li>
           <li className="mb-10 ml-6">
-            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2022/08/01〜2022/08/05</time>
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-8 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">2022/08/01〜2022/08/05</time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">日鉄ソリューションズ株式会社</h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               システムエンジニアインターン(1週間)に参加。大学生協の自動化システムの開発として上流工程の一部(基本設計)を6人チームで体験した。<br/>
             </p>
           </li>
           <li className="mb-10 ml-6">
-            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2022/05/28〜2022/05/29</time>
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-8 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">2022/05/28〜2022/05/29</time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">BIPROGY DX HACK -User&apos;s voice &quot;Solve the problem&quot;- </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               ハッカソン(2日間)に参加。アイスブレイクを促進するミーティングアプリの開発をした。
@@ -75,8 +75,8 @@ export const Home = (): JSX.Element => (
               </ul>
           </li>
           <li className="mb-10 ml-6">
-            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2022/03/03</time>
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-8 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">2022/03/03</time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">情報処理学会第84回全国大会にて研究成果を発表</h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               学生奨励賞受賞受賞。
@@ -89,8 +89,8 @@ export const Home = (): JSX.Element => (
               </a>
           </li>
           <li className="mb-10 ml-6">
-            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2021/03〜</time>
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-8 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">2021/03〜</time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">フューチャー株式会社</h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               長期開発インターンにてAI-OCRを用いた帳票自動読み取りシステムの開発に参加。
