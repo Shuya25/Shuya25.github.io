@@ -16,7 +16,7 @@ export const Home = (): JSX.Element => (
     <main className="py-20 my-40 mx-20 lg:mx-20">
       <div className={'text-center'}>
         <h1>Shuya Tobari</h1>
-        <p className="text-lg description">Major in Applied Informatics, Graduate School of Science and Engineering, The University of Hosei</p>
+        <p className="text-lg description">Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University </p>
       </div>
 
       <section className={'mt-8'}>
