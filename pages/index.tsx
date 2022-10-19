@@ -13,7 +13,7 @@ export const Home = (): JSX.Element => (
       <title>Portfolio - ShuyaTobari</title>
     </Head>
     <Header />
-    <main className="py-20 my-40 mx-20 lg:mx-20">
+    <main>
       <div className={'text-center'}>
         <h1>Shuya Tobari</h1>
         <p className="text-lg description">Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University </p>
@@ -117,7 +117,7 @@ export const Home = (): JSX.Element => (
 
       <section className={'mt-8'}>
         <h2 className={'mb-4 font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faLaptopCode} /> Skills</h2>
-        <h3 className={'mb-2 text-2xl font-bold'}>Programing</h3>
+        <h3 className={'mb-2 font-bold'}>Programing</h3>
         <div className="flex place-content-center space-x-8">
           <div className="w-1/2">
             <div className="flex justify-between mb-1">
@@ -185,7 +185,7 @@ export const Home = (): JSX.Element => (
         </div>
 
         <br></br>
-        <h3 className={'mb-2 text-2xl font-bold'}>Framework</h3>
+        <h3 className={'mb-2 font-bold'}>Framework</h3>
         <div className='text-lg'>
           <p>Python : Pytorch, Pandas, Django, Flask, etc...</p>
           <p>Javascript : React, Next</p>
@@ -216,6 +216,11 @@ export const Home = (): JSX.Element => (
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding-top: 2rem;
       }
 
       footer {
@@ -282,6 +287,17 @@ export const Home = (): JSX.Element => (
 
       /* for Desktop */
       @media (min-width: 640px) {
+        main {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 5rem;
+          margin-right: 5rem;
+          margin-top: 10rem;
+          margin-bottom: 10rem;
+          padding-top: 5rem;
+        }
       }
     `}</style>
 
@@ -294,11 +310,14 @@ export const Home = (): JSX.Element => (
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
       }
       h1 {
-        font-size: clamp(1.5rem, 3vw + 1.5rem, 3.75rem);
+        font-size: clamp(2.5rem, 3vw + 1.5rem, 3.75rem);
         font-weight: 700;
       }
       h2 {
-        font-size: clamp(0.5rem, 2vw + 0.5rem, 1.875rem);
+        font-size: clamp(1.25rem, 2vw + 0.5rem, 1.875rem);
+      }
+      h3 {
+        font-size: clamp(1rem, 2vw + 0.35rem, 1.5rem);
       }
 
       * {
