@@ -15,141 +15,98 @@ export const Home = (): JSX.Element => (
     <Header />
     <main className="py-20 my-40 mx-20 lg:mx-20">
       <div className={'text-center'}>
-        <h1 className="text-6xl font-bold">Shuya Tobari</h1>
+        <h1>Shuya Tobari</h1>
         <p className="text-lg description">Major in Applied Informatics, Graduate School of Science and Engineering, The University of Hosei</p>
       </div>
-      {/* <section className={'mt-8'}> */}
-
-        {/* <h2 className={'text-3xl font-bold'}>Contact information</h2> */}
-        {/* <p> */}
-          {/* <a
-            href="https://twitter.com/entaku_0818"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon size="lg" icon={faTwitter} />
-          </a> */}
-          {/* <a
-            href="https://github.com/Shuya25"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon size="lg" icon={faGithub} />
-          </a> */}
-        {/* </p> */}
-      {/* </section> */}
 
       <section className={'mt-8'}>
-        <h2 className={'text-3xl font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faBook}/> Research & Internship</h2>
-        <ul className={'mt-4 timeline'}>
-        <li>
-            <p className="timeline-date">2022/09/12〜2022/09/16</p>
-            <div className={'timeline-content'}>
-              <h3 className={'text-lg font-bold mt-8'}>BIPROGY株式会社</h3>
-              <p>ソフトウェアエンジニアインターン (1週間)</p>
-              <p>保育園の連絡帳アプリのプロトタイプ開発</p>
-              <ul className="list-disc m-6">
-                <li>スクラム開発(5人)</li>
-                <li>フロントエンド(React)担当</li>
-              </ul>
-            </div>
+        <h2 className={'mb-8 font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faBook}/> Research & Internship</h2>
+        <ol className="relative ml-6 border-l border-sky-600 dark:border-gray-700">                  
+          <li className="mb-10 ml-6">
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2022/09/12〜2022/09/16</time>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">BIPROGY株式会社</h3>
+            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              ソフトウェアエンジニアインターン(1週間)に参加。 チームで保育園の連絡帳アプリのプロトタイプ開発した。
+            </p>
+            <ul className="list-disc ml-6 text-base font-normal text-gray-500 dark:text-gray-400">
+              <li>スクラム開発(5人)</li>
+              <li>フロントエンド(React)担当</li>
+            </ul>
           </li>
-          <li>
-            <p className="timeline-date">2022/08/15〜2022/09/09</p>
-            <div className={'timeline-content'}>
-              <h3 className={'text-lg font-bold mt-8 underline underline-offset-1 text-blue-800'}>
-              <a className={'hover:text-blue-300'} href='https://scrapbox.io/shuya-t/Softbank_Summer_Internship' target="_blank" rel="noopener noreferrer">
-                  ソフトバンク株式会社 <FontAwesomeIcon icon={faFileCircleCheck} /> </a></h3>
-              {/* <a
-                href="https://~/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://~/
-              </a> */}
-              <p>システムエンジニアインターン (1ヶ月)</p>
-              <p>社内Web会議アプリに組み込み可能な字幕表示・議事録出力モジュール等の開発</p>
-              <ul className="list-disc m-6">
-                <li>画面設計からテストまでを実施</li>
-                <li>フロントエンド：React</li>
-                <li>バックエンド：Python(Django)</li>
-                <li>データベース：PostgreSQL</li>
-              </ul>
-            </div>
+          <li className="mb-10 ml-6">
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2022/08/15〜2022/09/09</time>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">ソフトバンク株式会社</h3>
+            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              システムエンジニアインターン(1ヶ月)に参加。社内Web会議アプリに組み込み可能な字幕表示・議事録出力モジュール等の開発を担当し、画面設計からテストまでを実施した。
+            </p>
+            <ul className="text-base font-normal text-gray-500 dark:text-gray-400 list-disc ml-6">
+              <li>フロントエンド：React</li>
+              <li>バックエンド：Python(Django)</li>
+              <li>データベース：PostgreSQL</li>
+            </ul>
+            <a href="https://scrapbox.io/shuya-t/Softbank_Summer_Internship" className="inline-flex items-center mt-2 py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+              Internship Note 
+              <svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
           </li>
-          <li>
-            <p className="timeline-date">2022/08/01〜2022/08/05</p>
-            <div className={'timeline-content'}>
-              <h3 className={'text-lg font-bold mt-8'}>日鉄ソリューションズ株式会社 </h3>
-
-              <p>システムエンジニアインターン (1週間)</p>
-              <p>大学生協の自動化システムの開発体験</p>
-              <p>上流工程の一部(基本設計)を6人チームで体験</p>
-              <br></br>
-            </div>
+          <li className="mb-10 ml-6">
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2022/08/01〜2022/08/05</time>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">日鉄ソリューションズ株式会社</h3>
+            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              システムエンジニアインターン(1週間)に参加。大学生協の自動化システムの開発として上流工程の一部(基本設計)を6人チームで体験した。<br/>
+            </p>
           </li>
-          <li>
-            <p className="timeline-date">2022/05/28〜2022/05/29</p>
-            <div className={'timeline-content'}>
-              <h3 className={'text-lg font-bold mt-8'}>BIPROGY DX HACK -User&apos;s voice &quot;Solve the problem&quot;- </h3>
-
-              <p>ハッカソン (2日間)</p>
-              <p>アイスブレイクを促進するミーティングアプリの開発</p>
-              <p>Twilioを活用したチームの中で最もアイディアと完成度が高いことを評してTwilio賞(副賞)受賞</p>
-              <p>5人チームのチームリーダー(進捗管理)とフロントエンド・バックエンド担当</p>
-              <ul className="list-disc m-6">
+          <li className="mb-10 ml-6">
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2022/05/28〜2022/05/29</time>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">BIPROGY DX HACK -User&apos;s voice &quot;Solve the problem&quot;- </h3>
+            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              ハッカソン(2日間)に参加。アイスブレイクを促進するミーティングアプリの開発をした。
+              5人チームのチームリーダー(進捗管理)とフロントエンド・バックエンドと幅広くプロジェクトに関わった。
+              <a className='link' href='https://www.twilio.com/ja/'>Twilio</a>を活用したチームの中で最もアイディアと完成度が高いことを評してTwilio賞(副賞)受賞。
+            </p>
+            <ul className="text-base font-normal text-gray-500 dark:text-gray-400 list-disc ml-6">
                 <li>フロントエンド：Javascript</li>
                 <li>バックエンド：Python(Flask)</li>
                 <li>API：Twilio</li>
               </ul>
-            </div>
           </li>
-          <li>
-            <p className="timeline-date">2022/03/03</p>
-            <div className={'timeline-content'}>
-              <h3 className={'text-lg font-bold mt-8'}>情報処理学会第84回全国大会学生奨励賞受賞</h3>
-              <a
-                href="http://www.ipsj.or.jp/index.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                http://www.ipsj.or.jp/index.html
-              </a>
-              <p>発表テーマ：類似症例検索を目的とした撮像環境に頑健な特徴表現の獲得</p>
-              <a 
+          <li className="mb-10 ml-6">
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2022/03/03</time>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">情報処理学会第84回全国大会にて研究成果を発表</h3>
+            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              学生奨励賞受賞受賞。
+              発表テーマ：類似症例検索を目的とした撮像環境に頑健な特徴表現の獲得
+            </p>
+            <a className='link'
                 href="https://docs.google.com/presentation/d/1yu0mcY9R7VcJUKms0Q83dyHsFfrqmFwur3MhqW5_nFo/edit?usp=sharing"
               >
-                発表スライド：https://docs.google.com/presentation/d/1yu0mcY9R7VcJUKms0Q83dyHsFfrqmFwur3MhqW5_nFo/edit?usp=sharing
+                発表スライド
               </a>
-            </div>
-            <br></br>
           </li>
-
-          <li>
-            <p className="timeline-date">2021/03〜現在</p>
-            <div className={'timeline-content'}>
-              <h3 className={'text-lg font-bold mt-8 underline underline-offset-1 text-blue-800'}>
-                <a className={'hover:text-blue-300'} href='https://scrapbox.io/shuya-t/Future_Internship' target="_blank" rel="noopener noreferrer">
-                  フューチャー株式会社 <FontAwesomeIcon icon={faFileCircleCheck} /></a>
-              </h3>
-              {/* <a
-                href="https://www.future.co.jp/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://www.future.co.jp/
-              </a> */}
-              <p>長期開発インターン</p>
-              <p>AIOCRを用いた帳票自動読み取りシステムの開発</p>
-              <p>データ加工・拡張、論文調査・実装検証、画像処理を用いた関数作成・検証、AIモデルの構築・改良など</p>
-              <p>開発言語：Python</p>
-            </div>
+          <li className="mb-10 ml-6">
+            <div className="absolute w-3 h-3 bg-sky-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-sky-600 dark:text-gray-500">2021/03〜</time>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">フューチャー株式会社</h3>
+            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              長期開発インターンにてAI-OCRを用いた帳票自動読み取りシステムの開発に参加。
+              データ加工・拡張、論文調査・実装検証、画像処理を用いた関数作成・検証、AIモデルの構築・改良など担当している。<br/>
+              開発言語：Python
+            </p>
+            <a href="https://scrapbox.io/shuya-t/Future_Internship" className="inline-flex items-center mt-2 py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+              Internship Note 
+              <svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
           </li>
-        </ul>
+        </ol>
       </section>
 
       <section className={'mt-8'}>
-        <h2 className={'text-3xl font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faGlobe} /> Languages & Qualification</h2>
+        <h2 className={'mb-4 font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faGlobe} /> Languages & Qualification</h2>
         <ul className="text-lg list-disc pl-8">
           <li>日本語(ネイティブ)</li>
           <li>英語(簡単な日常会話、TOEIC L&R：750 (2021年10月))</li>
@@ -159,8 +116,8 @@ export const Home = (): JSX.Element => (
       </section>
 
       <section className={'mt-8'}>
-        <h2 className={'text-3xl font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faLaptopCode} /> Skills</h2>
-        <h3 className={'text-2xl font-bold'}>Programing</h3>
+        <h2 className={'mb-4 font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faLaptopCode} /> Skills</h2>
+        <h3 className={'mb-2 text-2xl font-bold'}>Programing</h3>
         <div className="flex place-content-center space-x-8">
           <div className="w-1/2">
             <div className="flex justify-between mb-1">
@@ -228,17 +185,18 @@ export const Home = (): JSX.Element => (
         </div>
 
         <br></br>
-        <h3 className={'text-2xl font-bold'}>Framework</h3>
+        <h3 className={'mb-2 text-2xl font-bold'}>Framework</h3>
         <div className='text-lg'>
           <p>Python : Pytorch, Pandas, Django, Flask, etc...</p>
           <p>Javascript : React, Next</p>
           <p>Ruby : Ruby on Rails</p>
           <p>CSS : Tailwind, MUI</p>
+          <p>VM (仮想技術) : Docker</p>
         </div>
 
       </section>
       <section className={'mt-8'}>
-        <h2 className={'text-3xl font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faUserGraduate}/> Education</h2>
+        <h2 className={'mb-4 font-bold text-sky-800 dark:text-sky-800'}><FontAwesomeIcon icon={faUserGraduate}/> Education</h2>
         <p>法政大学 理工学部 応用情報工学科(2022年卒業)</p>
         <p>埼玉県立越谷南高等学校 普通科(2018年卒業)</p>
       </section>
@@ -279,9 +237,9 @@ export const Home = (): JSX.Element => (
         align-items: center;
       }
 
-      a {
-        color: inherit;
-        text-decoration: none;
+      .link {
+        color: #1a0dab;
+        text-decoration: underline;
       }
 
       .title a {
@@ -315,45 +273,15 @@ export const Home = (): JSX.Element => (
         margin: 0 0 0 auto;
       }
 
-      .timeline {
-        list-style: none;
+      .with-scrapbox {
+        color: #0369a1;
       }
-
-      .timeline > li {
-        margin-bottom: 60px;
+      .with-scrapbox:hover {
+        color: #0ea5e9;
       }
 
       /* for Desktop */
       @media (min-width: 640px) {
-        .timeline > li {
-          overflow: hidden;
-          margin: 0;
-          position: relative;
-        }
-
-        .timeline-date {
-          width: 110px;
-          float: left;
-          margin-top: 20px;
-        }
-
-        .timeline-content {
-          width: 75%;
-          float: left;
-          border-left: 3px #e5e5d1 solid;
-          padding-left: 30px;
-        }
-
-        .timeline-content:before {
-          content: '';
-          width: 12px;
-          height: 12px;
-          background: #6f86c1;
-          position: absolute;
-          left: 106px;
-          top: 36px;
-          border-radius: 100%;
-        }
       }
     `}</style>
 
@@ -364,6 +292,13 @@ export const Home = (): JSX.Element => (
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      }
+      h1 {
+        font-size: clamp(1.5rem, 3vw + 1.5rem, 3.75rem);
+        font-weight: 700;
+      }
+      h2 {
+        font-size: clamp(0.5rem, 2vw + 0.5rem, 1.875rem);
       }
 
       * {
