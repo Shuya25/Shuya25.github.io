@@ -27,7 +27,7 @@ export const Home = (): JSX.Element => (
             <time className="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">2022/09/12〜2022/09/16</time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">BIPROGY株式会社</h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              ソフトウェアエンジニアインターン(1週間)に参加。 チームで保育園の連絡帳アプリのプロトタイプ開発した。
+              ソフトウェアエンジニアインターン(1週間)に参加。 チームで保育園の連絡帳アプリを作った。
             </p>
             <ul className="list-disc ml-6 text-base font-normal text-gray-500 dark:text-gray-400">
               <li>スクラム開発(5人)</li>
