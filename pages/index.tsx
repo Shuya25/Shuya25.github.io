@@ -190,7 +190,7 @@ export const Home = (): JSX.Element => (
           <p>Python : Pytorch, Pandas, Django, Flask, etc...</p>
           <p>Javascript : React, Next</p>
           <p>Ruby : Ruby on Rails</p>
-          <p>CSS : Tailwind, MUI</p>
+          <p>UI : Tailwind, MUI</p>
           <p>VM (仮想技術) : Docker</p>
         </div>
 
